@@ -12,8 +12,8 @@
    End point: http://localhost:8088/api/student
    
    Requestbody :
-    {
-          
+   
+    {          
           "name":"kiran",
           "address":"Malegaon",
           "bloodGroup":"B+",
@@ -27,13 +27,15 @@
     4.GET API (Fetech or retrieve Student All Active  Data)
        End point: http://localhost:8088/api/student
     
-    4. DELETE API(Delete the student data By using specific ID)
+    5. DELETE API(Delete the student data By using specific ID)
     
      End point: http://localhost:8088/api/student/1
      
-   5.PUT API(update student Data)
+   6.PUT API(update student Data)
    
        End point: http://localhost:8088/api/student/1
+       
+       Requestbody :
        
      {
           "id":1,
