@@ -1,13 +1,14 @@
 # student_CRUD
 
 /** How to run Application **/
+
   1.Open the project in eclipse IDE
   
   2.Go in application.properties file path is src/main/resource/application.properties and change Database credentials 
   
-  2.Right click  on the and  click on  run->java application 
+  3.Right click  on the and  click on  run->java application 
   
-  3.POST API(Save the student All Data)
+  4.POST API(Save the student All Data)
   
    End point: http://localhost:8088/api/student
    
@@ -24,14 +25,14 @@
           "createdBy":1
     }
     
-    4.GET API (Fetech or retrieve Student All Active  Data)
+    5.GET API (Fetech or retrieve Student All Active  Data)
        End point: http://localhost:8088/api/student
     
-    5. DELETE API(Delete the student data By using specific ID)
+    6. DELETE API(Delete the student data By using specific ID)
     
      End point: http://localhost:8088/api/student/1
      
-   6.PUT API(update student Data)
+   7.PUT API(update student Data)
    
        End point: http://localhost:8088/api/student/1
        
