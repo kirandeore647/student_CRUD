@@ -8,7 +8,9 @@
   2.Right click  on the and  click on  run->java application 
   
   3.POST API(Save the student All Data)
+  
    End point: http://localhost:8088/api/student
+   
    Requestbody :
     {
           
@@ -30,7 +32,9 @@
      End point: http://localhost:8088/api/student/1
      
    5.PUT API(update student Data)
+   
        End point: http://localhost:8088/api/student/1
+       
      {
           "id":1,
           "name":"kiran",
